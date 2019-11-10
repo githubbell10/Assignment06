@@ -21,7 +21,7 @@ public class targetScript : MonoBehaviour
         if(other.gameObject == player)
         {
             targetsDestroyed += 1;
-            scoreText.text = "Tagets destroyed: " + targetsDestroyed;
+            scoreText.text = "Targets destroyed: " + targetsDestroyed;
             this.gameObject.SetActive(false);
         }
     }
